@@ -2,7 +2,6 @@
 rm(list=ls()) 
 
 ## load data and packages
-load("ext_fitmixed10.Rdata") ## same tree
 library(PCMFit)
 library(PCMBase)
 library(phytools)
@@ -13,7 +12,7 @@ options(PCMBase.Threshold.EV = 0.00000001)
 
 
 ## find best model
-ext_fitMIXED<-ext_eco_fitMIXED
+ext_fitMIXED<-readRDS("ext_fitMIXED.RDS")
 
 listModels_ext <- list(
   RetrieveBestFitScore(ext_fitMIXED[[1]])$inferredModel, 
@@ -260,8 +259,7 @@ print(xtable(cbind(results[,c("Adjusted_Estimate", "Std_Error")], summary(mod1)$
 
 
 X<-readRDS("X.RDS")
-
-load("fitmixed10.Rdata") # different trees
+fitMIXED<-readRDS("fitMIXED.RDS")
 fitMIXED<-lapply(fitMIXED, RetrieveBestFitScore)
 
 tips_list<-list()

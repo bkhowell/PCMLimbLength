@@ -1,5 +1,5 @@
 ##### Preparing working directory #####
-
+setwd("MixedModels")
 # clear workspace 
 rm(list=ls()) 
 

@@ -5,8 +5,8 @@ Scripts and data to run analyses on hindlimb length allometry.
 Scripts PCMFit_MixedModels.R and MixedModelSensitivity.R were run on an R server in parallel running R version 4.3.1.
 All other scripts were run on a PC (even if in parallel) running R version 4.3.2.
 Data files include: 
-final_mm.RDS (individual species measurements)
-ext2_td.RDS (a treeplyr tree data object which combines a phylogeny from Title et al. 2024, data from Meiri 2018, and species means from our dataset)
+1. final_mm.RDS (individual species measurements)
+2. ext2_td.RDS (a treeplyr tree data object which combines a phylogeny from Title et al. 2024, data from Meiri 2018, and species means from our dataset)
 All other .RDS files were generated through the use of the below scripts. 
 
 Scripts should be run in this order:

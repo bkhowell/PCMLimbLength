@@ -1,4 +1,3 @@
-setwd("code/MixedModels")
 # clear workspace 
 rm(list=ls()) 
 

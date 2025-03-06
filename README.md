@@ -1,6 +1,6 @@
 # PCMLimbLength
 
-Scripts and data to run analyses on hindlimb length allometry.
+Scripts and data to run analyses on hindlimb length allometry in lizards.
 
 Scripts PCMFit_MixedModels.R and MixedModelSensitivity.R were run on an R server in parallel running R version 4.3.1.
 All other scripts were run on a PC (even if in parallel) running R version 4.3.2.
